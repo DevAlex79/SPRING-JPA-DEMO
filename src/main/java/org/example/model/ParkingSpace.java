@@ -18,6 +18,9 @@ public class ParkingSpace {
     @OneToOne(mappedBy = "space")
     private Employe emp;
 
+
+    // Getter and Setter
+
     public int getId() {
         return id;
     }
